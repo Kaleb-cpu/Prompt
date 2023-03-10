@@ -5,4 +5,5 @@
   ### Attributions = 
   1. w3schools
   2. Tony's Class
+  #### Function Description
   My function, based on the users response from prompt uses an if else statement to determine what kind of color scheme to output.
