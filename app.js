@@ -23,13 +23,15 @@ const colorScheme = function(color){
   return color; 
 }
 
+// define the prompt
 let colorChosen = prompt(`Select a specific number for a particular color scheme:
    1: Warm
    2: Trending 
    3: Any number: Classic`)
    
    let schemeChosen;
-   
+
+// if else statements for the prompt options the user would input
     if (colorChosen === "1"){
      schemeChosen = colorScheme(warm) 
     }else if (colorChosen === "2") {
@@ -41,6 +43,7 @@ let colorChosen = prompt(`Select a specific number for a particular color scheme
 
     console.log(schemeChosen)
     
+  // output into html 
     output.innerHTML = schemeChosen;
     
     
